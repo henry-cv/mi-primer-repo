@@ -10,3 +10,6 @@ function toLowerCase(str) {
 function getFirstCharacter(str) {
   return str[0];
 }
+function getLastCharacter(str) {
+  return str[str.length - 1];
+}
