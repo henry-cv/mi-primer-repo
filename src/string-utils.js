@@ -7,9 +7,3 @@ function toUpperCase(str) {
 function toLowerCase(str) {
   return str.toLowerCase();
 }
-function getFirstCharacter(str) {
-  return str[0];
-}
-function getLastCharacter(str) {
-  return str[str.length - 1];
-}
