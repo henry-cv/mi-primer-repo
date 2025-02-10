@@ -1,0 +1,43 @@
+Apuntes sobre el flujo de Trabajo de repositorios Github
+----------------------------------------------------------
+1. Se abre la página principal del repositorio.
+2. Se da click al menú Issues de Github, (Aquí podemos crear las tareas, a ser
+ realizadas).
+  2.1 Se asigna un título a la tarea.
+  2.2 Se añade la descripción detallada de la tarea (inferior al título).
+    Ej.: 
+    #1 Agregar archivo README.md
+    Este archivo va a tener a manera de reseña, la información del proyecto.
+  2.3 Se da click al boton "Submit new issue".
+  
+  2.4 En la parte derecha, En asignaciones (Assignees) se designa a la/las personas
+  responsables de hacer dicha tarea.
+  2.5 En la sección Labels, se elige una etiqueta acorde a la finalidad de la tarea.
+  Hay varias categorias: bug, documentation, fix, question; o se puede crear una 	
+  nueva
+  
+3. Trabajo desde local en el código.
+
+++ En este punto ya se puede trabajar desde git local en el código o pasos para 
+efectuar la tarea como tal.
+
+Para esto se inicia creando una nueva rama, con una nomenclatura a esto:
+	usuariogithub/nombreTarea
+para efectuar la tarea no importa la cantidad de commits usadas ( más tarde vamos a
+hacer un merge con squash a la rama de la padre de "nombreTarea")
+
+Se completa la tarea, al momento de enviar efectuamos "git push" y luego 
+el "git push" sugerido por el mismo git en la consola.
+
+Ya ejecutado el comando sugerido se realiza el envio a la rama remota en Github, y
+sugiere también la ejecución de un comando git, para comparar y 
+generar el pull request
+
+4. Creación de un Pull Request
+  4.1a Desde Github, se da click al enlace sugerido en el punto anterior
+  4.1b Desde la web del repo también aparece un botón "Compare and PullRequest"
+  ambos enlaces funcionan para la creación del PR. 
+  4.2 En el panel de PR, se agrega los pasos necesarios para efectuar la revisión de
+  la tarea efectuada mediante la rama creada.
+  4.3 En el panel derecho se asigna a la/las personas "revisores"
+  
